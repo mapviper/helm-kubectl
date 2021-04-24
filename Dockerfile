@@ -8,8 +8,8 @@ ARG HELM_VERSION
 # Metadata
 LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.name="helm-kubectl" \
-      org.label-schema.url="https://hub.docker.com/r/dtzar/helm-kubectl/" \
-      org.label-schema.vcs-url="https://github.com/dtzar/helm-kubectl" \
+      org.label-schema.url="https://hub.docker.com/r/vasilkryvous/helm-kubectl/" \
+      org.label-schema.vcs-url="https://github.com/vasilkryvous/helm-kubectl" \
       org.label-schema.build-date=$BUILD_DATE
 
 RUN apk add --no-cache ca-certificates bash git openssh curl gettext jq bind-tools \
