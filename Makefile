@@ -1,7 +1,7 @@
 default: docker_build
 
 DOCKER_IMAGE ?= vasilkryvous/kubectl
-DOCKER_TAG ?= `git rev-parse --abbrev-ref HEAD`
+DOCKER_TAG ?= latest
 VCS_REF ?= `git rev-parse --short HEAD`
 BUILD_DATE ?= `date -u +"%Y-%m-%dT%H:%M:%SZ"`
 
